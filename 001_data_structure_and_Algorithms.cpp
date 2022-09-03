@@ -12,7 +12,7 @@ int main()
     cout << endl << "Enter the number to test:\t";
     cin >> num;
 
-    if (num < 0 || num >= 30000)
+    if (num < 0 || num > 30000)
     {
         cout << endl << "Out of Range!!!";
     }
